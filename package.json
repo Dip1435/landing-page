@@ -1,4 +1,5 @@
 {
+  "homepage": "https://Dip1435.github.io/landing-page",
   "name": "landing-page",
   "version": "0.1.0",
   "private": true,
@@ -7,8 +8,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "predeploy": "next build && next export",
+    "deploy": "gh-pages -d out"
   },
   "dependencies": {
     "@heroicons/react": "^2.2.0",
