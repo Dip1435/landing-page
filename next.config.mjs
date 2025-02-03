@@ -2,7 +2,13 @@
 const nextConfig = {
   reactStrictMode: true,
   productionBrowserSourceMaps: true,
-  output: "export",
+  images: {
+    unoptimized: true, // Disable default image optimization
+  },
+  assetPrefix: '/landing-page/',
+  basePath: '/landing-page',
+  output: 'export'
+ 
 };
 
 export default nextConfig;
