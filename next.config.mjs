@@ -5,8 +5,8 @@ const nextConfig = {
   images: {
     unoptimized: true, // Disable default image optimization
   },
-  assetPrefix: '/landing-page/',
   basePath: '/landing-page',
+  assetPrefix: '/landing-page/',
   output: 'export'
  
 };
